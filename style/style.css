@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 150vh;
+  background-image: url(/images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  position: relative;
+  left: 400px;
+  height: 50px;
+  width: 100px;
+}
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 60px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+a:hover {
+  color: #7b04f3;
+}
+.row {
+  display: flex;
+
+  /* height: 88%;
+  align-items: center; */
+}
+.col {
+  /* flex-basis: 50%; */
+}
+h1 {
+  color: #fff;
+  font-size: 100px;
+}
+p {
+  color: #fff;
+  font-size: 11px;
+  line-height: 15px;
+}
+button {
+  width: 120px;
+  color: #000;
+  font-size: 20px;
+  padding: 7px 0;
+  background: #d4ca0b;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+button:hover {
+  background: #e80d0d;
+  transition: 0.7s;
+}
+
+.card {
+  width: 200px;
+  height: 230px;
+  box-shadow: rgba(5, 234, 85, 0.56) 0px 22px 70px 4px;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card1 {
+  background-image: url(/images/ricky-martin.jpg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.card2 {
+  background-image: url(/images/adele.jpg);
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+}
+.card3 {
+  background-image: url(/images/Ed-sheeran.jpg);
+  position: absolute;
+  bottom: 0;
+  left: 600px;
+}
+.card4 {
+  background-image: url(/images/john-legend.jpg);
+  position: absolute;
+  bottom: 0;
+  left: 900px;
+}
+.card5 {
+  background-image: url(/images/bruno-mars.jpg);
+  position: absolute;
+  bottom: 0;
+  left: 1200px;
+}
+.videomp4 {
+  position: absolute;
+  right: 100px;
+  box-shadow: rgba(5, 234, 85, 0.56) 0px 22px 70px 4px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+h1 {
+  font-family: fantasy;
+  font-style: oblique;
+}
+
+h5 {
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  position: absolute;
+  bottom: 2rem;
+}
+.card p {
+  text-shadow: 0 0 15px #000;
+  font-size: 8px;
+  position: absolute;
+  bottom: 0rem;
+}
+.copyright {
+  background-color: aqua;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.main_bg {
+  background-color: #355e3b;
+  max-width: 1280px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.form {
+  width: 650px;
+}
+
+.form-text {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+.form-text h1 span img {
+  margin: 0 10px;
+}
+.form-text h1 {
+  color: #fff;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.form-text p {
+  color: #fff;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: large;
+}
+
+.main-form div {
+  margin: 10px 10px;
+  width: 300px;
+  display: inline-block;
+}
+.main-form div input {
+  width: 100%;
+  font-family: "Akaya Telivigala", cursive;
+  background: none;
+  border: 1px solid #ffca00;
+  font-size: 20px;
+  color: #ffffff;
+  outline: none;
+  padding: 3px 0 3px 10px;
+  margin-top: 10px;
+}
+.main-form div select {
+  width: 104%;
+  font-family: "Akaya Telivigala", cursive;
+  background: none;
+  border: 1px solid #ffca00;
+  font-size: 20px;
+  color: #e80d0d;
+  outline: none;
+  padding: 3px 0 3px 10px;
+  margin-top: 10px;
+}
+.main-form div span {
+  width: 100%;
+  font-family: "Akaya Telivigala", cursive;
+  color: #fff;
+  font-size: 25px;
+}
+
+#checkout {
+  width: 100%;
+  text-align: center;
+}
+#checkout input {
+  position: relative;
+  left: 105px;
+  font-family: "Akaya Telivigala", cursive;
+  width: 200px;
+  background-color: yellow !important;
+  color: black !important;
+  transition: all 0.3s;
+}
+#checkout input:hover {
+  font-family: "Akaya Telivigala", cursive;
+  width: 200px;
+  background-color: black !important;
+  color: #fff !important;
+}
+#checkout input:active {
+  font-size: 19px;
+  background-color: rgb(46, 20, 5) !important;
+  color: #ffffff !important;
+}
+
+#reset {
+  width: 100%;
+  text-align: center;
+}
+#reset input {
+  position: relative;
+  bottom: 65px;
+  right: 225px;
+  font-family: "Akaya Telivigala", cursive;
+  width: 200px;
+  background-color: yellow !important;
+  color: black !important;
+  transition: all 0.3s;
+}
+#reset input:hover {
+  font-family: "Akaya Telivigala", cursive;
+  width: 200px;
+  background-color: black !important;
+  color: #fff !important;
+}
+#reset input:active {
+  font-size: 19px;
+  background-color: rgb(46, 20, 5) !important;
+  color: #ffffff !important;
+}
+
+@media screen and (max-width: 710px) {
+  .main-form {
+    text-align: center;
+  }
+}
+
+.social-media {
+  display: inline-flex;
+  background-color: aqua;
+  width: 100%;
+  height: 60px;
+  font-size: 50px;
+  border-radius: 10px;
+  padding: 10px 2px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.social-media:hover {
+  transform: translateY(-10px);
+}
+.fa-twitter {
+  color: rgb(99, 90, 225);
+  margin-left: 20px;
+}
+.fa-instagram {
+  color: #e80d0d;
+  margin-left: 20px;
+}
+.fa-square-facebook {
+  color: blue;
+  margin-left: 20px;
+}
+.fa-youtube {
+  color: #e80d0d;
+  margin-left: 20px;
+}
+
+#location {
+  background-color: #355e3b;
+}
+
+.location iframe {
+  width: 100%;
+  height: 50vh;
+}
+.locationh2 {
+  text-align: center;
+  color: #fff;
+  margin: 2rem;
+}
+.location3 {
+  display: flex;
+  text-align: center;
+  margin: 3rem;
+  color: #fff;
+}
+
+.contenar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #355e3b;
+}
+
+.form-layout {
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+  background: #fff;
+  color: #522900;
+  border-top: solid 10px #ec7302;
+  padding: 20px;
+  box-shadow: 0 0 6px 0 #0004;
+}
+
+.form-layout .title {
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  width: -webkit-fill-available;
+  color: #ec7302;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin: 20px 10px 20px;
+  border: solid 2px;
+}
+
+.form-layout form {
+  padding: 20px 0 10px;
+}
+.form-layout form .flex {
+  display: flex;
+}
+
+.form-layout form .input-box {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.form-layout form input,
+.form-layout form .massage textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0 16px;
+  border: 1px solid #828282;
+  border-radius: 2px;
+  color: #ec7302;
+}
+.form-layout form input:focus,
+.form-layout form textarea:focus {
+  outline-color: #ec7302;
+  border-color: #ec7302;
+}
+.form-layout form .massage textarea {
+  height: 150px;
+  line-height: 1.6;
+  font-family: roboto;
+  overflow-y: auto;
+}
+
+.form-layout form .send {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: -webkit-fill-available;
+  color: #fff;
+  background: #ec7302;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin: 30px 10px 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.form-layout form .send svg {
+  fill: #fff;
+  margin-right: 5px;
+}
+.form-layout form .send:hover {
+  background: #7b04f3;
+}
+
+@media screen and (max-width: 510px) {
+  body {
+    background: #fff;
+  }
+  .form-layout {
+    box-shadow: none;
+    border: none;
+  }
+  .form-layout form .flex {
+    display: block;
+    width: 100%;
+  }
+}
+#food-containerid {
+  width: 100%;
+  height: 100vh;
+  background-color: #355e3b;
+}
+.row {
+  display: flex;
+}
+
+.food-container div {
+  flex: 50%;
+  text-align: center;
+}
+
+.row img {
+  height: 300px;
+  margin: 50px;
+}
+
+.food-container .foodh2,
+.foodh3,
+.foodul {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
